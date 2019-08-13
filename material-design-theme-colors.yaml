@@ -1,0 +1,462 @@
+#
+# File: Material Design Theme Colors.yaml
+# Project: Home Assistant
+#
+# Author: Mars @ AmoebeLabs.com
+# 
+# License: CC BY-SA, https://creativecommons.org/licenses/by/4.0/
+#
+# -----
+# Description:
+#   Color palettes based on Material Design color palette, adapted according to
+#   darken / lighten / accent color names.
+#   
+#   References:
+#   - https://materializecss.com/color.html
+#   - https://vuetifyjs.com/en/styles/colors
+#
+###############################################################################
+
+#
+# select the colors for your themes by including them in your theme.
+
+#
+# Basic colors black and white
+#
+###############################################################################
+
+mdc-black: #000000
+mdc-white: #FFFFFF
+
+#
+# Basic background colors with depth using transparency.
+#
+# Elevation Level White or Black Overlay Transparency
+#   00dp  0% --> equals the background color
+#   01dp  5%
+#   02dp  7%
+#   03dp  8%
+#   04dp  9%
+#   06dp  11%
+#   08dp  12%
+#   12dp  14%
+#   16dp  15%
+#   24dp  16%
+#
+# For syntax: https://developer.mozilla.org/en-US/docs/Web/CSS/color_value#rgba()
+#
+###############################################################################
+
+#
+# A black overlay will darken the surface a bit. Usually used on a light background!
+
+mdc-overlay-black-00dp: 'rgba(0, 0, 0, 0.00)'
+mdc-overlay-black-01dp: 'rgba(0, 0, 0, 0.05)'
+mdc-overlay-black-02dp: 'rgba(0, 0, 0, 0.07)'
+mdc-overlay-black-03dp: 'rgba(0, 0, 0, 0.08)'
+mdc-overlay-black-04dp: 'rgba(0, 0, 0, 0.09)'
+mdc-overlay-black-06dp: 'rgba(0, 0, 0, 0.11)'
+mdc-overlay-black-08dp: 'rgba(0, 0, 0, 0.12)'
+mdc-overlay-black-12dp: 'rgba(0, 0, 0, 0.14)'
+mdc-overlay-black-16dp: 'rgba(0, 0, 0, 0.15)'
+mdc-overlay-black-24dp: 'rgba(0, 0, 0, 0.16)'
+
+#
+# A white overlay will lighten the surface a bit. Usually used on a dark background!
+
+mdc-overlay-white-00dp: 'rgba(255, 255, 255, 0.00)'
+mdc-overlay-white-01dp: 'rgba(255, 255, 255, 0.05)'
+mdc-overlay-white-02dp: 'rgba(255, 255, 255, 0.07)'
+mdc-overlay-white-03dp: 'rgba(255, 255, 255, 0.08)'
+mdc-overlay-white-04dp: 'rgba(255, 255, 255, 0.09)'
+mdc-overlay-white-06dp: 'rgba(255, 255, 255, 0.11)'
+mdc-overlay-white-08dp: 'rgba(255, 255, 255, 0.12)'
+mdc-overlay-white-12dp: 'rgba(255, 255, 255, 0.14)'
+mdc-overlay-white-16dp: 'rgba(255, 255, 255, 0.15)'
+mdc-overlay-white-24dp: 'rgba(255, 255, 255, 0.16)'
+
+#
+# Material Design color palette for Google products
+#
+###############################################################################
+
+google-red-lighten-4: '#f4c7c3'
+google-red-lighten-2: '#e67c73'
+google-red-base: '#db4437'
+google-red-darken-2: '#c53929'
+
+google-blue-lighten-4: '#c6dafc'
+google-blue-lighten-2: '#7baaf7'
+google-blue-base: '#4285f4'
+google-blue-darken-2: '#3367d6'
+
+google-green-lighten-4: '#b7e1cd'
+google-green-lighten-2: '#57bb8a'
+google-green-base: '#0f9d58'
+google-green-darken-2: '#0b8043'
+
+google-yellow-lighten-4: '#fce8b2'
+google-yellow-lighten-2: '#f7cb4d'
+google-yellow-base: '#f4b400'
+google-yellow-darken-2: '#f09300'
+
+google-grey-lighten-4: '#f5f5f5'
+google-grey-lighten-2: '#e0e0e0'
+google-grey-base: '#9e9e9e'
+google-grey-darken-2: '#616161'
+
+#
+# Material Material Design color palette with:
+# - base oolor of each palette
+# - the darker colors compared to the base color
+# - the lighter colors compared to the base color
+# - the accent colors
+#
+###############################################################################
+
+#
+# Red
+
+mdc-red-lighten-5: '#ffebee'
+mdc-red-lighten-4: '#ffcdd2'
+mdc-red-lighten-3: '#ef9a9a'
+mdc-red-lighten-2: '#e57373'
+mdc-red-lighten-1: '#ef5350'
+mdc-red-base:      '#f44336'
+mdc-red-darken-1:  '#e53935'
+mdc-red-darken-2:  '#d32f2f'
+mdc-red-darken-3:  '#c62828'
+mdc-red-darken-4:  '#b71c1c'
+mdc-red-accent-1:  '#ff8a80'
+mdc-red-accent-2:  '#ff5252'
+mdc-red-accent-4:  '#ff1744'
+mdc-red-accent-7:  '#d50000'
+
+#
+# Pink
+
+mdc-pink-lighten-5: '#fce4ec'
+mdc-pink-lighten-4: '#f8bbd0'
+mdc-pink-lighten-3: '#f48fb1'
+mdc-pink-lighten-2: '#f06292'
+mdc-pink-lighten-1: '#ec407a'
+mdc-pink-base:      '#e91e63'
+mdc-pink-darken-1:  '#d81b60'
+mdc-pink-darken-2:  '#c2185b'
+mdc-pink-darken-3:  '#ad1457'
+mdc-pink-darken-4:  '#880e4f'
+mdc-pink-accent-1:  '#ff80ab'
+mdc-pink-accent-2:  '#ff4081'
+mdc-pink-accent-4:  '#f50057'
+mdc-pink-accent-7:  '#c51162'
+
+#
+# Purple
+
+mdc-purple-lighten-5: '#f3e5f5'
+mdc-purple-lighten-4: '#e1bee7'
+mdc-purple-lighten-3: '#ce93d8'
+mdc-purple-lighten-2: '#ba68c8'
+mdc-purple-lighten-1: '#ab47bc'
+mdc-purple-base:      '#9c27b0'
+mdc-purple-darken-1:  '#8e24aa'
+mdc-purple-darken-2:  '#7b1fa2'
+mdc-purple-darken-3:  '#6a1b9a'
+mdc-purple-darken-4:  '#4a148c'
+mdc-purple-accent-1:  '#ea80fc'
+mdc-purple-accent-2:  '#e040fb'
+mdc-purple-accent-4:  '#d500f9'
+mdc-purple-accent-7:  '#aa00ff'
+
+#
+# Deep Purple
+
+mdc-deep-purple-lighten-5: '#ede7f6'
+mdc-deep-purple-lighten-4: '#d1c4e9'
+mdc-deep-purple-lighten-3: '#b39ddb'
+mdc-deep-purple-lighten-2: '#9575cd'
+mdc-deep-purple-lighten-1: '#7e57c2'
+mdc-deep-purple-base:      '#673ab7'
+mdc-deep-purple-darken-1:  '#5e35b1'
+mdc-deep-purple-darken-2:  '#512da8'
+mdc-deep-purple-darken-3:  '#4527a0'
+mdc-deep-purple-darken-4:  '#311b92'
+mdc-deep-purple-accent-1:  '#b388ff'
+mdc-deep-purple-accent-2:  '#7c4dff'
+mdc-deep-purple-accent-4:  '#651fff'
+mdc-deep-purple-accent-7:  '#6200ea'
+
+#
+# Indigo
+
+mdc-indigo-lighten-5: '#e8eaf6'
+mdc-indigo-lighten-4: '#c5cae9'
+mdc-indigo-lighten-3: '#9fa8da'
+mdc-indigo-lighten-2: '#7986cb'
+mdc-indigo-lighten-1: '#5c6bc0'
+mdc-indigo-base:      '#3f51b5'
+mdc-indigo-darken-1:  '#3949ab'
+mdc-indigo-darken-2:  '#303f9f'
+mdc-indigo-darken-3:  '#283593'
+mdc-indigo-darken-4:  '#1a237e'
+mdc-indigo-accent-1:  '#8c9eff'
+mdc-indigo-accent-2:  '#536dfe'
+mdc-indigo-accent-4:  '#3d5afe'
+mdc-indigo-accent-7:  '#304ffe'
+
+#
+# Blue 
+
+mdc-blue-lighten-5: '#e3f2fd'
+mdc-blue-lighten-4: '#bbdefb'
+mdc-blue-lighten-3: '#90caf9'
+mdc-blue-lighten-2: '#64b5f6'
+mdc-blue-lighten-1: '#42a5f5'
+mdc-blue-base:      '#2196f3'
+mdc-blue-darken-1:  '#1e88e5'
+mdc-blue-darken-2:  '#1976d2'
+mdc-blue-darken-3:  '#1565c0'
+mdc-blue-darken-4:  '#0d47a1'
+mdc-blue-accent-1:  '#82b1ff'
+mdc-blue-accent-2:  '#448aff'
+mdc-blue-accent-4:  '#2979ff'
+mdc-blue-accent-7:  '#2962ff'
+
+#
+# Light Blue
+
+mdc-light-blue-lighten-5: '#e1f5fe'
+mdc-light-blue-lighten-4: '#b3e5fc'
+mdc-light-blue-lighten-3: '#81d4fa'
+mdc-light-blue-lighten-2: '#4fc3f7'
+mdc-light-blue-lighten-1: '#29b6f6'
+mdc-light-blue-base:      '#03a9f4'
+mdc-light-blue-darken-1:  '#039be5'
+mdc-light-blue-darken-2:  '#0288d1'
+mdc-light-blue-darken-3:  '#0277bd'
+mdc-light-blue-darken-4:  '#01579b'
+mdc-light-blue-accent-1:  '#80d8ff'
+mdc-light-blue-accent-2:  '#40c4ff'
+mdc-light-blue-accent-4:  '#00b0ff'
+mdc-light-blue-accent-7:  '#0091ea'
+
+#
+# Cyan
+
+mdc-cyan-lighten-5: '#e0f7fa'
+mdc-cyan-lighten-4: '#b2ebf2'
+mdc-cyan-lighten-3: '#80deea'
+mdc-cyan-lighten-2: '#4dd0e1'
+mdc-cyan-lighten-1: '#26c6da'
+mdc-cyan-base:      '#00bcd4'
+mdc-cyan-darken-1:  '#00acc1'
+mdc-cyan-darken-2:  '#0097a7'
+mdc-cyan-darken-3:  '#00838f'
+mdc-cyan-darken-4:  '#006064'
+mdc-cyan-accent-1:  '#84ffff'
+mdc-cyan-accent-2:  '#18ffff'
+mdc-cyan-accent-4:  '#00e5ff'
+mdc-cyan-accent-7:  '#00b8d4'
+
+#
+# Teal
+
+mdc-teal-lighten-5: '#e0f2f1'
+mdc-teal-lighten-4: '#b2dfdb'
+mdc-teal-lighten-3: '#80cbc4'
+mdc-teal-lighten-2: '#4db6ac'
+mdc-teal-lighten-1: '#26a69a'
+mdc-teal-base:      '#009688'
+mdc-teal-darken-1:  '#00897b'
+mdc-teal-darken-2:  '#00796b'
+mdc-teal-darken-3:  '#00695c'
+mdc-teal-darken-4:  '#004d40'
+mdc-teal-accent-1:  '#a7ffeb'
+mdc-teal-accent-2:  '#64ffda'
+mdc-teal-accent-4:  '#1de9b6'
+mdc-teal-accent-7:  '#00bfa5'
+
+#
+# Green
+
+mdc-green-lighten-5:  '#e8f5e9'
+mdc-green-lighten-4:  '#c8e6c9'
+mdc-green-lighten-3:  '#a5d6a7'
+mdc-green-lighten-2:  '#81c784'
+mdc-green-lighten-1:  '#66bb6a'
+mdc-green-base:       '#4caf50'
+mdc-green-darken-1:   '#43a047'
+mdc-green-darken-2:   '#388e3c'
+mdc-green-darken-3:   '#2e7d32'
+mdc-green-darken-4:   '#1b5e20'
+mdc-green-accent-1:   '#b9f6ca'
+mdc-green-accent-2:   '#69f0ae'
+mdc-green-accent-4:   '#00e676'
+mdc-green-accent-7:   '#00c853'
+
+#
+# Light Green
+
+mdc-light-green-lighten-5:  '#f1f8e9'
+mdc-light-green-lighten-4:  '#dcedc8'
+mdc-light-green-lighten-3:  '#c5e1a5'
+mdc-light-green-lighten-2:  '#aed581'
+mdc-light-green-lighten-1:  '#9ccc65'
+mdc-light-green-base:       '#8bc34a'
+mdc-light-green-darken-1:   '#7cb342'
+mdc-light-green-darken-2:   '#689f38'
+mdc-light-green-darken-3:   '#558b2f'
+mdc-light-green-darken-4:   '#33691e'
+mdc-light-green-accent-1:   '#ccff90'
+mdc-light-green-accent-2:   '#b2ff59'
+mdc-light-green-accent-4:   '#76ff03'
+mdc-light-green-accent-7:   '#64dd17'
+
+#
+# Lime
+
+mdc-lime-lighten-5: '#f9fbe7'
+mdc-lime-lighten-4: '#f0f4c3'
+mdc-lime-lighten-3: '#e6ee9c'
+mdc-lime-lighten-2: '#dce775'
+mdc-lime-lighten-1: '#d4e157'
+mdc-lime-base:      '#cddc39'
+mdc-lime-darken-1:  '#c0ca33'
+mdc-lime-darken-2:  '#afb42b'
+mdc-lime-darken-3:  '#9e9d24'
+mdc-lime-darken-4:  '#827717'
+mdc-lime-accent-1:  '#f4ff81'
+mdc-lime-accent-2:  '#eeff41'
+mdc-lime-accent-4:  '#c6ff00'
+mdc-lime-accent-7:  '#aeea00'
+
+#
+# Yellow
+
+mdc-yellow-lighten-5: '#fffde7'
+mdc-yellow-lighten-4: '#fff9c4'
+mdc-yellow-lighten-3: '#fff59d'
+mdc-yellow-lighten-2: '#fff176'
+mdc-yellow-lighten-1: '#ffee58'
+mdc-yellow-base:      '#ffeb3b'
+mdc-yellow-darken-1:  '#fdd835'
+mdc-yellow-darken-2:  '#fbc02d'
+mdc-yellow-darken-3:  '#f9a825'
+mdc-yellow-darken-4:  '#f57f17'
+mdc-yellow-accent-1:  '#ffff8d'
+mdc-yellow-accent-2:  '#ffff00'
+mdc-yellow-accent-4:  '#ffea00'
+mdc-yellow-accent-7:  '#ffd600'
+
+#
+# Amber
+
+mdc-amber-lighten-5:  '#fff8e1'
+mdc-amber-lighten-4:  '#ffecb3'
+mdc-amber-lighten-3:  '#ffe082'
+mdc-amber-lighten-2:  '#ffd54f'
+mdc-amber-lighten-1:  '#ffca28'
+mdc-amber-base:       '#ffc107'
+mdc-amber-darken-1:   '#ffb300'
+mdc-amber-darken-2:   '#ffa000'
+mdc-amber-darken-3:   '#ff8f00'
+mdc-amber-darken-4:   '#ff6f00'
+mdc-amber-accent-1:   '#ffe57f'
+mdc-amber-accent-2:   '#ffd740'
+mdc-amber-accent-4:   '#ffc400'
+mdc-amber-accent-7:   '#ffab00'
+
+#
+# Orange
+
+mdc-orange-lighten-5: '#fff3e0'
+mdc-orange-lighten-4: '#ffe0b2'
+mdc-orange-lighten-3: '#ffcc80'
+mdc-orange-lighten-2: '#ffb74d'
+mdc-orange-lighten-1: '#ffa726'
+mdc-orange-base:      '#ff9800'
+mdc-orange-darken-1:  '#fb8c00'
+mdc-orange-darken-2:  '#f57c00'
+mdc-orange-darken-3:  '#ef6c00'
+mdc-orange-darken-4:  '#e65100'
+mdc-orange-accent-1:  '#ffd180'
+mdc-orange-accent-2:  '#ffab40'
+mdc-orange-accent-4:  '#ff9100'
+mdc-orange-accent-7:  '#ff6500'
+
+#
+# Deep Orange
+
+mdc-deep-orange-lighten-5:  '#fbe9e7'
+mdc-deep-orange-lighten-4:  '#ffccbc'
+mdc-deep-orange-lighten-3:  '#ffab91'
+mdc-deep-orange-lighten-2:  '#ff8a65'
+mdc-deep-orange-lighten-1:  '#ff7043'
+mdc-deep-orange-base:       '#ff5722'
+mdc-deep-orange-darken-1:   '#f4511e'
+mdc-deep-orange-darken-2:   '#e64a19'
+mdc-deep-orange-darken-3:   '#d84315'
+mdc-deep-orange-darken-4:   '#bf360c'
+mdc-deep-orange-accent-1:   '#ff9e80'
+mdc-deep-orange-accent-2:   '#ff6e40'
+mdc-deep-orange-accent-4:   '#ff3d00'
+mdc-deep-orange-accent-7:   '#dd2c00'
+
+#
+# Brown
+
+mdc-brown-lighten-5:  '#efebe9'
+mdc-brown-lighten-4:  '#d7ccc8'
+mdc-brown-lighten-3:  '#bcaaa4'
+mdc-brown-lighten-2:  '#a1887f'
+mdc-brown-lighten-1:  '#8d6e63'
+mdc-brown-base:       '#795548'
+mdc-brown-darken-1:   '#6d4c41'
+mdc-brown-darken-2:   '#5d4037'
+mdc-brown-darken-3:   '#4e342e'
+mdc-brown-darken-4:   '#3e2723'
+
+#
+# Grey
+
+mdc-grey-lighten-5:   '#fafafa'
+mdc-grey-lighten-4:   '#f5f5f5'
+mdc-grey-lighten-3:   '#eeeeee'
+mdc-grey-lighten-2:   '#e0e0e0'
+mdc-grey-lighten-1:   '#bdbdbd'
+mdc-grey-base:        '#9e9e9e'
+mdc-grey-darken-1:    '#757575'
+mdc-grey-darken-2:    '#616161'
+mdc-grey-darken-3:    '#424242'
+mdc-grey-darken-4:    '#212121'
+mdc-grey-darken-4_5:  '#111111'
+
+#
+# Blue Grey
+
+mdc-blue-grey-lighten-5:  '#eceff1'
+mdc-blue-grey-lighten-4:  '#cfd8dc'
+mdc-blue-grey-lighten-3:  '#b0bec5'
+mdc-blue-grey-lighten-2:  '#90a4ae'
+mdc-blue-grey-lighten-1:  '#78909c'
+mdc-blue-grey-base:       '#607d8b'
+mdc-blue-grey-darken-1:   '#546e7a'
+mdc-blue-grey-darken-2:   '#455a64'
+mdc-blue-grey-darken-3:   '#37474f'
+mdc-blue-grey-darken-4:   '#263238'
+
+#
+# opacity for dark text on a light background
+dark-divider-opacity: 0.12;
+dark-disabled-opacity: 0.26;
+dark-secondary-opacity: 0.54;
+dark-primary-opacity: 0.87;
+
+#
+# opacity for light text on a dark background
+light-divider-opacity: 0.12;
+light-disabled-opacity: 0.3;
+light-secondary-opacity: 0.7;
+light-primary-opacity: 1.0;
+ 
+  

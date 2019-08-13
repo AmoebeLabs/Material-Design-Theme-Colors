@@ -9,4 +9,4 @@ References:
   - https://materializecss.com/color.html
   - https://vuetifyjs.com/en/styles/colors
 
-!material-design-colors.png
+!https://github.com/AmoebeLabs/Material-Design-Theme-Colors/blob/master/material-design-colors.png
